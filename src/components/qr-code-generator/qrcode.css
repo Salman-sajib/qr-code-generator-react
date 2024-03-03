@@ -1,0 +1,23 @@
+.qrcode-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-and-button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.input-and-button input {
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+}
+
+.input-and-button button {
+  padding: 0.3rem 0.9rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

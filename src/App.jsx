@@ -1,9 +1,10 @@
 import './App.css';
+import Qrcode from './components/qr-code-generator/Qrcode';
 
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className='App'>
+      <Qrcode />
     </div>
   );
 }
